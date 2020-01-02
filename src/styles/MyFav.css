@@ -1,0 +1,65 @@
+.MFcontainer .info {
+  display: flex;
+}
+.MFcontainer .info .image {
+  width: 120px;
+}
+.MFcontainer .info .image img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.MFcontainer .journeyContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MFcontainer .journeyContainer .journeyBox {
+  margin: 30px;
+  width: max-content;
+}
+
+.MFcontainer .journeyContainer .journeyBox img {
+  object-fit: cover;
+  width: 320px;
+  height: 200px;
+}
+.MFcontainer .journeyContainer .journeyBox a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.MFcontainer .journeyContainer .journeyBox a:hover {
+  font-weight: bolder;
+}
+
+.MFcontainer .planContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MFcontainer .planContainer .planBox {
+  margin: 30px;
+}
+.MFcontainer .planContainer .planBox .imgBox {
+  position: relative;
+}
+.MFcontainer .planContainer .planBox .imgBox > span {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: white;
+  font-weight: bold;
+}
+.MFcontainer .planContainer .planBox img {
+  object-fit: cover;
+  width: 320px;
+  height: 200px;
+}
+.MFcontainer .planContainer .planBox a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.MFcontainer .planContainer .planBox a:hover {
+  font-weight: bolder;
+}

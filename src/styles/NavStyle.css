@@ -1,0 +1,57 @@
+* {
+  font-family: "Questa Sans", cursive;
+}
+.Navcontainer .profileImg {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.Navcontainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.navbar {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar > div {
+  margin: 5px 20px;
+  height: 22px;
+}
+.navbar > div:hover {
+  font-weight: bold;
+}
+.navbar > a {
+  margin: 5px 20px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.navbar > a:hover {
+  font-weight: bold;
+}
+.dropdown-content {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 0px;
+  position: relative;
+}
+.dropdown:hover > .dropdown-content {
+  visibility: visible;
+}
+.dropdown-content > a {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+.dropdown-content > a:hover {
+  font-weight: bold;
+}

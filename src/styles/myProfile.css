@@ -1,0 +1,95 @@
+.MPcontainer .info {
+  display: flex;
+}
+.MPcontainer .info .image {
+  width: 120px;
+}
+.MPcontainer .info .image img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.MPcontainer .journeyContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MPcontainer .journeyContainer .journeyBox {
+  margin: 30px;
+  width: max-content;
+}
+
+.MPcontainer .journeyContainer .journeyBox img {
+  object-fit: cover;
+  width: 320px;
+  height: 200px;
+}
+.MPcontainer .journeyContainer .journeyBox a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.MPcontainer .journeyContainer .journeyBox a:hover {
+  font-weight: bolder;
+}
+
+.MPcontainer .planContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MPcontainer .planContainer .planBox {
+  margin: 30px;
+}
+.MPcontainer .planContainer .planBox .imgBox {
+  position: relative;
+}
+.MPcontainer .planContainer .planBox .imgBox > span {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: white;
+  font-weight: bold;
+}
+.MPcontainer .planContainer .planBox img {
+  object-fit: cover;
+  width: 320px;
+  height: 200px;
+}
+.MPcontainer .planContainer .planBox a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.MPcontainer .planContainer .planBox a:hover {
+  font-weight: bolder;
+}
+.MPcontainer .joinedplanContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox {
+  margin: 30px;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox .imgBox {
+  position: relative;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox .imgBox > span {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: white;
+  font-weight: bold;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox img {
+  object-fit: cover;
+  width: 320px;
+  height: 200px;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.MPcontainer .joinedplanContainer .joinedplanBox a:hover {
+  font-weight: bolder;
+}

@@ -1,0 +1,45 @@
+.postJourney {
+  position: relative;
+}
+
+.PJcontainer {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  margin-top: 40px;
+}
+.PJcontainer .coverImg {
+  object-fit: cover;
+  width: 400px;
+  height: 350px;
+  background: white;
+}
+.PJcontainer .left {
+  width: max-content;
+  padding-right: 70px;
+}
+.PJcontainer .left textarea {
+  width: 340px;
+  height: 170px;
+}
+.PJcontainer .right {
+  width: max-content;
+  padding-left: 70px;
+  border-left: 1px solid;
+}
+.PJcontainer .right .content {
+  background-color: rgb(212, 208, 208);
+  width: 750px;
+  height: 750px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.PJcontainer .right .content .contentImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.PJcontainer .right h3 {
+  margin-top: 0;
+  padding-top: 0;
+}

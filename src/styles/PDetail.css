@@ -1,0 +1,47 @@
+.PDcontainer > img {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+.PDcontainer h1 {
+  font-size: 45px;
+  width: max-content;
+  margin: auto;
+}
+.PDcontainer .fav button {
+  display: block;
+  margin: 10px auto;
+}
+.PDcontainer .info {
+  display: flex;
+  border: 1px dashed;
+  width: max-content;
+  margin: auto;
+}
+.PDcontainer .info div {
+  margin: 20px;
+}
+.PDcontainer .content {
+  width: 600px;
+  margin: 30px auto;
+}
+.PDjoin h2 {
+  width: max-content;
+  margin: auto;
+}
+
+.PDjoin {
+  border: solid 1px;
+  width: max-content;
+  margin: auto;
+}
+.PDjoin h1 {
+  text-align: center;
+}
+.PDjoin div {
+  margin: 20px;
+}
+.PDjoin button {
+  display: block;
+  margin: auto;
+}
